@@ -43,7 +43,7 @@ function getTasks() {
         //Add class
         li.className = 'collection-item';
         //Create text node and append to li
-        li.appendChild(document.createTextNode(task.value));
+        li.appendChild(document.createTextNode(task));
         //Create new link element 
         const link = document.createElement('a');
         //Add class
@@ -115,6 +115,9 @@ function removeTask(e) {
         ('delete-item')) {
         if (confirm('Are you sure? ')) {
             e.target.parentElement.parentElement.remove();
+
+            //Remove from LS
+            removeTaskFromLocalStorage();
         }
     }
 
