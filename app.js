@@ -117,11 +117,16 @@ function removeTask(e) {
             e.target.parentElement.parentElement.remove();
 
             //Remove from LS
-            removeTaskFromLocalStorage();
+            removeTaskFromLocalStorage
+                (e.target.parentElement.parentElement);
         }
     }
 
 };
+
+function removeTaskFromLocalStorage(taskItem) {
+    console.log(taskItem);
+}
 
 //clear tasks
 function clearTasks() {
