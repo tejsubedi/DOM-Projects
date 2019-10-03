@@ -28,6 +28,9 @@ function loadEventListeners() {
 
 }
 
+//Get Tasks from Local storage 
+
+
 
 //Add task
 function addTask(e) {
