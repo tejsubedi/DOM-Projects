@@ -13,7 +13,7 @@ loadEventListeners();
 function loadEventListeners() {
 
     //DOM load event 
-
+    document.addEventListener('DOMContentLoaded', getTasks);
     //Add task event
     form.addEventListener('submit', addTask);
 
