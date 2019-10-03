@@ -30,7 +30,12 @@ function loadEventListeners() {
 
 //Get Tasks from Local storage 
 function getTasks() {
-
+    let tasks;
+    if (localStorage.getItem('tasks') === null) {
+        tasks = [];
+    } else {
+        tasks = JSON.parse(localStorage.getItem('tasks'));
+    }
 }
 
 
