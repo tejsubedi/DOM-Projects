@@ -154,6 +154,7 @@ function clearTasks() {
     //https://jsperf.com/innerhtml-vs-removechild/47
 
     //Clear tasks from local storage
+    clearTasksFromLocalStorage();
 }
 
 
