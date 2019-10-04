@@ -116,9 +116,8 @@ function removeTask(e) {
         if (confirm('Are you sure? ')) {
             e.target.parentElement.parentElement.remove();
 
-            //Remove from LS
-            removeTaskFromLocalStorage
-                (e.target.parentElement.parentElement);
+            //Remove from Local storage
+            removeTaskFromLocalStorage(e.target.parentElement.parentElement);
         }
     }
 
