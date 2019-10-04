@@ -159,7 +159,7 @@ function clearTasks() {
 
 //Clear tasks from local storage
 function clearTasksFromLocalStorage() {
-
+    localStorage.clear();
 };
 
 
