@@ -155,7 +155,12 @@ function clearTasks() {
 
     //Clear tasks from local storage
     clearTasksFromLocalStorage();
-}
+};
+
+//Clear tasks from local storage
+function clearTasksFromLocalStorage() {
+
+};
 
 
 //Filter Tasks
