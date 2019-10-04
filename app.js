@@ -124,7 +124,19 @@ function removeTask(e) {
 };
 
 function removeTaskFromLocalStorage(taskItem) {
-    console.log(taskItem);
+    // console.log(taskItem);
+    let tasks;
+    if (localStorage.getItem('tasks') === null) {
+        tasks = [];
+    } else {
+        tasks = JSON.parse(localStorage.getItem('tasks'));
+    }
+
+    tasks.forEach(function(task, index) {
+        if(taskItem.textContent === task){
+            tasks.splice();
+        }
+    })
 }
 
 //clear tasks
