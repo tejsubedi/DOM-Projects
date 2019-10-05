@@ -1,0 +1,31 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container my-4 py-4 ">
+        <form id="task-form">
+            <label for="text">New Task</label>
+            <input type="text" id="task">
+            <div>
+                <button type="submit">Add Task</button>
+            </div>
+        </form>
+    </div>
+    <div class="container my-4 py-4 ">
+        <label for="text">Filter Task</label>
+        <input type="text" id="filter">
+        <ul class="collection"></ul>
+        <a href="#" class="clear-tasks"><button>Clear Tasks</button></a>
+    </div>
+    <script src="app1.js"></script>
+</body>
+
+</html>
