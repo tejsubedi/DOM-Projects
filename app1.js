@@ -2,6 +2,7 @@ const form = document.querySelector('#task-form');
 const taskInput = document.querySelector('#task');
 const taskList = document.querySelector('.collection');
 const clearBtn = document.querySelector('.clear-tasks');
+const filter = document.querySelector('#filter');
 
 
 //Load all event listeners
