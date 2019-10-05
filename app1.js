@@ -71,6 +71,6 @@ function filterTasks(e) {
         }
 
     })
-    console.log(text);
+
 }
 
