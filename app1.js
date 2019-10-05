@@ -40,7 +40,6 @@ function addTask(event) {
     li.appendChild(link);
     taskList.appendChild(li);
 
-    console.log(taskList);
 }
 
 function removeTask(e) {
@@ -68,7 +67,6 @@ function filterTasks(e) {
         } else {
             task.style.display = 'none';
         }
-
     })
 
 }
